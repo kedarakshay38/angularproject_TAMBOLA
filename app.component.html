@@ -1,0 +1,19 @@
+<div class="container-fluid sticky-top">
+    <div class="row bg-dark justify-content-between align-items-center " style="height:70px;">
+        <div class="col-3 " style="height:70px; width:220px;padding-left: 0;">
+            <img src="assets\ta.jpg" style="width:100%;height:100%;object-fit:cover ;">
+        </div>
+        <div class="col-4">
+
+        </div>
+
+        <div class="col-5 d-flex align-content-center  ">
+            <button class="btn  m-2 " id="lb" (click)="gotopage('') ">Home</button>
+            <button class="btn  m-2" id="lb" (click)="gotopage('game')">Start Game</button>
+            <button class=" btn  m-2 " id="lb" (click)="gotopage('log') ">Login-Signup</button>
+            <button class="btn  m-2 " id="lb" (click)="gotopage( '4') ">Prizes</button>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
